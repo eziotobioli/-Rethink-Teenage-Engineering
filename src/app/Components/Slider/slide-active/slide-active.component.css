@@ -1,0 +1,43 @@
+.active-slide{
+    background: #FFE286;
+    position: relative;
+    height: 455px;
+    overflow: hidden;
+    
+}
+
+.back-words{
+    position: absolute;
+
+    font-size: 90px;
+    width: 100%;
+    color: white;
+    opacity: 0.3;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+
+.product-name{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: Stockport Outline;
+    font-size: 80px;
+
+    text-shadow: 2px 2px 0 #000;
+    color: white;
+}
+
+img{
+    position: absolute;
+    max-height: 300px;
+    max-width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    
+}
